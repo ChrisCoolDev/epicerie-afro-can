@@ -16,9 +16,9 @@ export default function FAQs(){
                     </div>
                 </div>
                 <div className="md:max-w-[768px] w-full space-y-4">
-                    <AccordionCard question="Quelles sont les heures d’ouverture et de fermeture du magasin?" answer="Le magasin est accessible chaque jour de la semaine de 8h à 18h, et le week-end entre 9h à 17h."/>
+                    <AccordionCard question="Quelles sont les heures d’ouverture et de fermeture du magasin?" answer="Le magasin est ouvert du lundi au vendredi entre 8h et 19h, le samedi entre 9h et 20h et le dimanche entre 9h et 19h."/>
                     <AccordionCard question="D'où proviennent vos produits ?" answer="Nos produits proviennent principalement d'Amérique, d'Afrique, d'Haïti, et d'autres régions du monde, afin de vous offrir une diversité de choix et de saveurs authentiques."/>
-                    <AccordionCard question="Offrez-vous un service de livraison ?" answer="Le service de livraison sera implémenté sous peu."/>
+                    <AccordionCard question="Offrez-vous un service de livraison ?" answer="Oui, nous offrons un service de livraison. Pour plus d'informations, veuillez nous contacter."/>
                 </div>
             </div>
         </section>

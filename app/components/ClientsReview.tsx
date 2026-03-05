@@ -4,7 +4,7 @@ import ReviewForm from "./basics/ReviewForm";
 import ReviewCard from "./ReviewCard";
 
 export default function ClientsReview() {
-    const [reviews, setReviews] = useState<{ id: string; name: string; message: string; createdAt: string; }[]>([]);
+    const [reviews, setReviews] = useState<{ id: string; name: string; message: string; createdAt: string; replies: { id: string; name: string; message: string; createdAt: string }[] }[]>([]);
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState('');
 
@@ -59,6 +59,7 @@ export default function ClientsReview() {
                                     key={review.id}
                                     name={review.name} 
                                     message={review.message}
+                                    replies={review.replies}
                                 />
                             ))
                         )}
