@@ -44,7 +44,7 @@ export default function AdditionalServices() {
                     {/* Restauration / Traiteur */}
                     <div className="flex flex-col sm:flex-row items-start gap-4 sm:gap-6 p-6 sm:p-8 rounded-[16px] bg-white border border-gray-100">
                         <div className="w-[60px] h-[60px] sm:w-[80px] sm:h-[80px] flex-shrink-0 flex items-center justify-center">
-                            <svg class="vector" width="845" height="593" viewBox="0 0 845 593" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <svg className="vector" width="845" height="593" viewBox="0 0 845 593" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M761.418 115.83C762.91 116.686 764.549 117.774 765.026 119.557C765.545 121.492 764.488 122.906 763.417 124.357C762.075 124.129 761.193 123.824 760.293 122.729C759.421 121.669 759.156 120.393 759.331 119.05C759.536 117.478 760.317 116.812 761.418 115.83Z" fill="#269F42" />
                                 <path d="M830.522 461.798C831.159 461.885 831.445 461.885 832.043 462.115C833.189 462.554 834.017 463.485 834.328 464.682C834.866 466.761 834.07 468.706 833.141 470.52C832.411 470.399 831.785 470.257 831.123 469.895C830.029 469.299 829.167 468.353 828.908 467.106C828.474 465.023 829.46 463.466 830.522 461.798Z" fill="#269F42" />
                                 <path d="M599.057 176.767C600.154 176.725 601.079 176.847 602.157 177.051C603.337 177.992 603.485 178.081 603.938 179.505C603.717 181.263 603.241 182.115 602.209 183.541C601.09 183.59 599.72 183.689 598.689 183.148C597.392 182.467 597.339 181.856 597.024 180.564C597.345 178.911 598.011 178.062 599.057 176.767Z" fill="#269F42" />
@@ -119,8 +119,8 @@ export default function AdditionalServices() {
                     <div className="flex flex-col sm:flex-row items-start gap-4 sm:gap-6 p-6 sm:p-8 rounded-[16px] bg-white border border-gray-100">
                         <div className="w-[60px] h-[60px] sm:w-[80px] sm:h-[80px] flex-shrink-0 flex items-center justify-center">
                             {/* Ria Logo Illustration */}
-                            <svg class="ria-1" width="181" height="120" viewBox="0 0 181 120" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <g clip-path="url(#clip0_1095_4104)">
+                            <svg className="ria-1" width="181" height="120" viewBox="0 0 181 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g clipPath="url(#clip0_1095_4104)">
                                     <path d="M0 85.5001V118.91H24.54V89.5901C24.54 76.6401 31.77 68.1801 49.36 67.6401V43.0901C17.04 43.6401 0 60.4101 0 85.5001Z" fill="#FF6100" />
                                     <path d="M141.82 42C119.04 42.14 102.68 58.5 102.68 81C102.68 103.23 116.32 117.82 139.36 120L155.45 107.86L156 108.14V118.91H180.68V81C180.68 57.41 165.18 41.86 141.82 42ZM141.82 96C133.36 96 127.23 89.73 127.23 81C127.23 72.27 133.36 66 141.82 66C150.28 66 156.13 72.27 156.13 81C156.13 89.73 150.18 96 141.82 96Z" fill="#FF6100" />
                                     <path d="M90.1298 43.0901H65.5898V118.91H90.1298V43.0901Z" fill="#FF6100" />
